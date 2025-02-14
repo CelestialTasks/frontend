@@ -1,0 +1,19 @@
+FROM node:18.13.0 AS build
+
+WORKDIR /frontend
+
+COPY .yarn /frontend/.yarn
+COPY eslint.config.js .yarnrc.yml package.json tsconfig.json yarn.lock index.html vite.config.ts ./
+
+RUN yarn set version 4.6.0
+RUN yarn install
+
+COPY public /frontend/public
+COPY src /frontend/src
+
+RUN yarn build
+
+FROM steebchen/nginx-spa:stable
+COPY --from=build /frontend/build /app
+EXPOSE 80
+CMD nginx

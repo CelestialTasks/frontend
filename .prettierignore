@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+android
+assets
+icons
+.vscode
+.yarn
+public
+src/assets

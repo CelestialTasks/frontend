@@ -1,0 +1,14 @@
+FROM node:18.13.0
+
+WORKDIR /frontend
+
+COPY .yarn /frontend/.yarn
+COPY eslint.config.js .yarnrc.yml package.json tsconfig.json yarn.lock index.html vite.config.ts ./
+
+RUN yarn set version 4.6.0
+RUN yarn install
+
+COPY public /frontend/public
+COPY src /frontend/src
+
+CMD ["yarn", "test", "--run"]
