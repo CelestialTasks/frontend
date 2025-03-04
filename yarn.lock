@@ -895,6 +895,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-reconciler@npm:^0.28.0, @types/react-reconciler@npm:^0.28.8":
+  version: 0.28.9
+  resolution: "@types/react-reconciler@npm:0.28.9"
+  peerDependencies:
+    "@types/react": "*"
+  checksum: 10c0/9fe71fa856aab2cd4742fe0416bdd4f5c82ecc05ef6451ee7fcb65a5efdf5fa588f5820fbe2a665b15371b0da3bfc4097f28bb6d450b9a834af2d0fc00f403bd
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:^19":
   version: 19.0.8
   resolution: "@types/react@npm:19.0.8"
@@ -1405,45 +1414,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bot@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "bot@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.19.0"
-    "@tailwindcss/vite": "npm:^4.0.0"
-    "@tanstack/eslint-plugin-query": "npm:^5.65.0"
-    "@tanstack/react-query": "npm:^5.65.1"
-    "@types/eslint-plugin-jsx-a11y": "npm:^6"
-    "@types/qs": "npm:^6"
-    "@types/react": "npm:^19"
-    "@types/react-dom": "npm:^19"
-    "@typescript-eslint/eslint-plugin": "npm:^8.23.0"
-    "@typescript-eslint/parser": "npm:^8.23.0"
-    "@vitejs/plugin-react-swc": "npm:^3.7.2"
-    axios: "npm:^1.7.9"
-    eslint: "npm:^9.19.0"
-    eslint-config-prettier: "npm:^10.0.1"
-    eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-prettier: "npm:^5.2.3"
-    eslint-plugin-react: "npm:^7.37.4"
-    eslint-plugin-react-hooks: "npm:^5.1.0"
-    eslint-plugin-simple-import-sort: "npm:^12.1.1"
-    globals: "npm:^15.14.0"
-    prettier: "npm:^3.4.2"
-    prettier-plugin-tailwindcss: "npm:^0.6.11"
-    qs: "npm:^6.14.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    react-router: "npm:^7.1.3"
-    tailwindcss: "npm:^4.0.0"
-    typescript: "npm:^5.7.3"
-    typescript-eslint: "npm:^8.22.0"
-    vite: "npm:^6.0.11"
-    vite-plugin-checker: "npm:^0.8.0"
-    vite-tsconfig-paths: "npm:^5.1.4"
-  languageName: unknown
-  linkType: soft
-
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1531,6 +1501,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"celestial-tasks-frontend@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "celestial-tasks-frontend@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.19.0"
+    "@tailwindcss/vite": "npm:^4.0.0"
+    "@tanstack/eslint-plugin-query": "npm:^5.65.0"
+    "@tanstack/react-query": "npm:^5.65.1"
+    "@types/eslint-plugin-jsx-a11y": "npm:^6"
+    "@types/qs": "npm:^6"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    "@typescript-eslint/eslint-plugin": "npm:^8.23.0"
+    "@typescript-eslint/parser": "npm:^8.23.0"
+    "@vitejs/plugin-react-swc": "npm:^3.7.2"
+    axios: "npm:^1.7.9"
+    class-variance-authority: "npm:^0.7.1"
+    clsx: "npm:^2.1.1"
+    eslint: "npm:^9.19.0"
+    eslint-config-prettier: "npm:^10.0.1"
+    eslint-plugin-jsx-a11y: "npm:^6.10.2"
+    eslint-plugin-prettier: "npm:^5.2.3"
+    eslint-plugin-react: "npm:^7.37.4"
+    eslint-plugin-react-hooks: "npm:^5.1.0"
+    eslint-plugin-simple-import-sort: "npm:^12.1.1"
+    globals: "npm:^15.14.0"
+    konva: "npm:^9.3.18"
+    lucide-react: "npm:^0.475.0"
+    prettier: "npm:^3.4.2"
+    prettier-plugin-tailwindcss: "npm:^0.6.11"
+    qs: "npm:^6.14.0"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
+    react-konva: "npm:^19.0.2"
+    react-router: "npm:^7.1.3"
+    tailwind-merge: "npm:^3.0.1"
+    tailwindcss: "npm:^4.0.0"
+    tailwindcss-animate: "npm:^1.0.7"
+    typescript: "npm:^5.7.3"
+    typescript-eslint: "npm:^8.22.0"
+    vite: "npm:^6.0.11"
+    vite-plugin-checker: "npm:^0.8.0"
+    vite-tsconfig-paths: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "chalk@npm:^4.0.0, chalk@npm:^4.1.1":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
@@ -1564,6 +1580,22 @@ __metadata:
   version: 3.0.0
   resolution: "chownr@npm:3.0.0"
   checksum: 10c0/43925b87700f7e3893296c8e9c56cc58f926411cce3a6e5898136daaf08f08b9a8eb76d37d3267e707d0dcc17aed2e2ebdf5848c0c3ce95cf910a919935c1b10
+  languageName: node
+  linkType: hard
+
+"class-variance-authority@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "class-variance-authority@npm:0.7.1"
+  dependencies:
+    clsx: "npm:^2.1.1"
+  checksum: 10c0/0f438cea22131808b99272de0fa933c2532d5659773bfec0c583de7b3f038378996d3350683426b8e9c74a6286699382106d71fbec52f0dd5fbb191792cccb5b
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
   languageName: node
   linkType: hard
 
@@ -2999,6 +3031,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"its-fine@npm:^1.2.5":
+  version: 1.2.5
+  resolution: "its-fine@npm:1.2.5"
+  dependencies:
+    "@types/react-reconciler": "npm:^0.28.0"
+  peerDependencies:
+    react: ">=18.0"
+  checksum: 10c0/5618955ac7ae0d7788580186f91ac9989301ead2c87250883258cd7ee32f9a4e08574728506d1deb90477090d7a688ba19571126aae9fb25661e90057dd772df
+  languageName: node
+  linkType: hard
+
 "jackspeak@npm:^3.1.2":
   version: 3.4.3
   resolution: "jackspeak@npm:3.4.3"
@@ -3098,6 +3141,13 @@ __metadata:
   dependencies:
     json-buffer: "npm:3.0.1"
   checksum: 10c0/aa52f3c5e18e16bb6324876bb8b59dd02acf782a4b789c7b2ae21107fab95fab3890ed448d4f8dba80ce05391eeac4bfabb4f02a20221342982f806fa2cf271e
+  languageName: node
+  linkType: hard
+
+"konva@npm:^9.3.18":
+  version: 9.3.18
+  resolution: "konva@npm:9.3.18"
+  checksum: 10c0/1f320edce346ff9d406fa2486ee9bd1219e43a5d919d2e29afcca281c944ad74d27230a49ad44bfa70aacb4169e02b9a4af39a1b097096d940a23a6ca05cf78c
   languageName: node
   linkType: hard
 
@@ -3268,6 +3318,15 @@ __metadata:
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
   checksum: 10c0/ebd04fbca961e6c1d6c0af3799adcc966a1babe798f685bb84e6599266599cd95d94630b10262f5424539bc4640107e8a33aa28585374abf561d30d16f4b39fb
+  languageName: node
+  linkType: hard
+
+"lucide-react@npm:^0.475.0":
+  version: 0.475.0
+  resolution: "lucide-react@npm:0.475.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/9cb17bd4e70da4db104874b6b2e9d9c7e2be9438e9d1c0b2565df0c4d0bdd1add41b7dff3cb60840699ecbd29870c453878b42b69a7c46480def0c9370a852a9
   languageName: node
   linkType: hard
 
@@ -3869,6 +3928,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-konva@npm:^19.0.2":
+  version: 19.0.2
+  resolution: "react-konva@npm:19.0.2"
+  dependencies:
+    "@types/react-reconciler": "npm:^0.28.8"
+    its-fine: "npm:^1.2.5"
+    react-reconciler: "npm:0.31.0"
+    scheduler: "npm:0.25.0"
+  peerDependencies:
+    konva: ^8.0.1 || ^7.2.5 || ^9.0.0
+    react: ^18.3.1 || ^19.0.0
+    react-dom: ^18.3.1 || ^19.0.0
+  checksum: 10c0/b259368780d72965360b3ab0abdf1362386bca127d0ba67fe7bf604c1b797f000e31dd42613023c80b6e0505d33eea1219561c34e4def986354afded90df433e
+  languageName: node
+  linkType: hard
+
+"react-reconciler@npm:0.31.0":
+  version: 0.31.0
+  resolution: "react-reconciler@npm:0.31.0"
+  dependencies:
+    scheduler: "npm:^0.25.0"
+  peerDependencies:
+    react: ^19.0.0
+  checksum: 10c0/97920e1866c7206e200c3920c133c2e85f62a3c54fd9bc4b83c10c558d83d98eb378caab4fe37498e0cc1b1b2665d898627f2ae2537b29c8ab295ec8abc0c580
+  languageName: node
+  linkType: hard
+
 "react-router@npm:^7.1.3":
   version: 7.1.3
   resolution: "react-router@npm:7.1.3"
@@ -4113,7 +4199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.25.0":
+"scheduler@npm:0.25.0, scheduler@npm:^0.25.0":
   version: 0.25.0
   resolution: "scheduler@npm:0.25.0"
   checksum: 10c0/a4bb1da406b613ce72c1299db43759526058fdcc413999c3c3e0db8956df7633acf395cb20eb2303b6a65d658d66b6585d344460abaee8080b4aa931f10eaafe
@@ -4454,6 +4540,22 @@ __metadata:
     "@pkgr/core": "npm:^0.1.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/e0c262817444e5b872708adb6f5ad37951ba33f6b2d1d4477d45db1f57573a784618ceed5e6614e0225db330632b1f6b95bb74d21e4d013e45ad4bde03d0cb59
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "tailwind-merge@npm:3.0.1"
+  checksum: 10c0/973d754687ad82d25cb55bf16958153999d080cd68dd0a6c1c74909bd92d05bcca01c24d9642e9e6ec95b3a207b15cd4b32bca49d586f2e743d311358ecb584b
+  languageName: node
+  linkType: hard
+
+"tailwindcss-animate@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "tailwindcss-animate@npm:1.0.7"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 10c0/ec7dbd1631076b97d66a1fbaaa06e0725fccfa63119221e8d87a997b02dcede98ad88bb1ef6665b968f5d260fcefb10592e0299ca70208d365b37761edf5e19a
   languageName: node
   linkType: hard
 

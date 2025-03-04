@@ -1,4 +1,4 @@
-import { Home } from 'pages/Home'
+import { Home } from 'pages/Canvas'
 import { type RouteObject } from 'react-router'
 import { ROUTES } from 'router/constants'
 
